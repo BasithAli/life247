@@ -7,12 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+
 public class LoginActivity extends AppCompatActivity {
    private Button loginButton;
    private Button registerButton;
-
-    public LoginActivity() {
-    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
