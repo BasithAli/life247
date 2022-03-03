@@ -3,4 +3,9 @@
     <string name="title_text">A Day in The Life</string>
     <string name="how_is_your_day">How is your Day?</string>
     <string name="Lets_get_in">Let\'s Get in</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="email_login_text">Login</string>
+    <string name="not_registered_text">Not Registred ?</string>
+    <string name="register_text">Register Now</string>
 </resources>
