@@ -8,4 +8,5 @@
     <string name="email_login_text">Login</string>
     <string name="not_registered_text">Not Registred ?</string>
     <string name="register_text">Register Now</string>
+    <string name="username_hint">Username</string>
 </resources>
