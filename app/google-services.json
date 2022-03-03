@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708015396889",
+    "project_id": "life247-d001f",
+    "storage_bucket": "life247-d001f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708015396889:android:48716dac8bd7772402b288",
+        "android_client_info": {
+          "package_name": "ntu.n1043826.life247"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708015396889-dqnp86l2dqtu1e4hbr64u46pfae6dhtl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDc-WDhPsP3Qv3e9i1pb3Pcbfru2oOBll4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708015396889-dqnp86l2dqtu1e4hbr64u46pfae6dhtl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

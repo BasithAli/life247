@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/title_text"
+        android:textSize="30sp" />
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <com.google.android.material.card.MaterialCardView
+        app:cardElevation="6dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="90dp">
+
+        <TextView
+            android:id="@+id/how_is_your_day"
+            android:layout_gravity="center"
+            android:text="@string/how_is_your_day"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+         </TextView>
+
+</com.google.android.material.card.MaterialCardView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/startbutton"
+        android:text="@string/Lets_get_in"
+        android:textColor="@color/black"
+        android:background="@color/material_on_surface_stroke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+</LinearLayout>
